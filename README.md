@@ -36,7 +36,7 @@ This project is mainly for:
 
 This repo is written in:
 
-**👉**java**
+👉**java**
 
 ---
 
