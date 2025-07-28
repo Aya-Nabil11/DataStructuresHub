@@ -1,4 +1,4 @@
-package datastructureshub;
+package datastructureshub.Arrays;
 
 /**
  * A simple dynamically‑resizing list of ints.
