@@ -101,7 +101,6 @@ public class SinglyLinkedList <T>{
             return value;
          } 
     }
-
     public T get(int index){
         Node<T> tmp=head;
             for(int i=1;i<index;i++){
@@ -110,7 +109,6 @@ public class SinglyLinkedList <T>{
             T value=tmp.next.value;
             return value;
     }
-   
     public void reverse(){
         Node<T> newTail=head;
         Node<T> prev=null;
@@ -125,8 +123,6 @@ public class SinglyLinkedList <T>{
         tail=newTail;
         head=prev;
     }
-    
-
     public int size(){
         return size;
     }
@@ -152,9 +148,6 @@ public class SinglyLinkedList <T>{
 
         head = dummy.next;
     }
-    
-      
-    
     
    public class Node<T>{
        T value;
